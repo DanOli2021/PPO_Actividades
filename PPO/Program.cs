@@ -30,7 +30,7 @@ while( true )
         case 3:
             Console.Write("Ingrese el radio del círculo: ");
             double radio = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine($"El área del círculo es: {Areas.area(radio)}");
+            Console.WriteLine($"El área del círculo es: {Areas.area(true, radio)}");
             break;
         case 4:
             Console.Write("Ingrese la base menor del trapecio: ");
